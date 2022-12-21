@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+    box-shadow: 0 0 50px #ccc;
+    padding: 2rem;
+    margin: 5rem 30rem;
+    border-radius: 8px;
+    
+}
+
+.container #heading {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: blue;
+    
+}
+
+
+
+.row input{
+    padding: 10px 30px;
+    margin: .5rem;
+    border: 3px solid slategray;
+    border-radius: 8px;
+    font-weight: 20px;
+}
+.row input::placeholder{
+    font-size: 30px;
+    font-weight: 600;
+}
+.row1{
+    padding: 18px 18px;
+}
+.row1 .topButton{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;  
+}
+
+.row1 .button{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;  
+}
+.row button{
+    padding:15px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    color: blue;
+    font-weight: 600;
+    font-size: 1rem;  
+
+}
